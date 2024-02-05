@@ -55,7 +55,6 @@ function condicionesIniciales() {
     asignarTextoElemento('p',`Indica un número del 1 al ${numeroMaximo}`);
     numeroSecreto = generarNumeroSecreto();
     intentos = 1;
-    console.log(numeroSecreto);
 }
 
 function reiniciarJuego() {
